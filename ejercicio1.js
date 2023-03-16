@@ -69,3 +69,9 @@ function exito() {
     document.querySelector(".resultado").innerHTML =
     "Mensaje enviado exitosamente|";
 }
+
+const sum = (a, b) => {
+    return a + b
+}
+
+console.log(sum(1,3));
